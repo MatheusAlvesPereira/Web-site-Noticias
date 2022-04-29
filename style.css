@@ -1,8 +1,52 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body{
     background-color: whitesmoke;
+    background: url(./imgs/pexels-alex-conchillos-3648850.jpg);
+}
+
+.container{
+    height: 99vh;
+    width: 750px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: red;
+}
+
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 1vh;
+    color: white;
+}
+
+.logo-title{
+    height: 5vh;
+    width: 5vw;
+}
+
+.img-logo{
+    height: 5vh;
+    width: 5vw;
+}
+
+.img{
+    position: relative;
+}
+
+.Content-container{
+    position: absolute;
+}
+
+.Content-title{
+    color: white;
+}
+
+.logo-title{
+    font-size: large;
+    color: white;
 }
