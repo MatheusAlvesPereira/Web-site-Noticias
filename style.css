@@ -6,7 +6,7 @@
 
 body{
     background-color: whitesmoke;
-    background: url(./imgs/pexels-alex-conchillos-3648850.jpg);
+    background: url(./imgs/Waiau.png);
 }
 
 .container{
@@ -19,9 +19,9 @@ body{
 
 .logo-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     padding-top: 1vh;
-    color: white;
+    color: black
 }
 
 .logo-title{
@@ -43,10 +43,10 @@ body{
 }
 
 .Content-title{
-    color: white;
+    color: black;
 }
 
 .logo-title{
     font-size: large;
-    color: white;
+    color: black
 }
